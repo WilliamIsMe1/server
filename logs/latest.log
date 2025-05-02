@@ -1,94 +1,26 @@
-[17:10:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Windows 10 10.0 (amd64)
-[17:10:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
-[17:10:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:10:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[17:10:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
- - FastAsyncWorldEdit (2.12.3), voicechat (2.5.26)
-[17:10:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:10:54] [ServerMain/INFO]: Loaded 1290 recipes
-[17:10:55] [ServerMain/INFO]: Loaded 1399 advancements
-[17:10:55] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[17:10:55] [Server thread/INFO]: Loading properties
-[17:10:56] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[17:10:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:10:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:10:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:10:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[17:10:59] [Server thread/INFO]: Default game type: SURVIVAL
-[17:10:59] [Server thread/INFO]: Generating keypair
-[17:10:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:10:59] [Server thread/INFO]: Using default channel type
-[17:10:59] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:10:59] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:10:59] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
-[17:10:59] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
-[17:11:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@40e45d01]
-[17:11:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:11:01] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Invalid config field: slower-memory-percent for settings. It is possible this is because it has been removed.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Failed to set config option: slower-memory-percent: 80 | com.fastasyncworldedit.core.configuration.Settings@7aac1392 | Settings.yml. This is likely because it was removed or was set with an invalid value.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Invalid config field: enabled-components.snapshot-update-notifications for enabled-components. It is possible this is because it has been removed.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Failed to set config option: enabled-components.snapshot-update-notifications: true | com.fastasyncworldedit.core.configuration.Settings$ENABLED_COMPONENTS@49bf3a35 | Settings.yml. This is likely because it was removed or was set with an invalid value.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Invalid config field: enabled-components.release-update-notifications for enabled-components. It is possible this is because it has been removed.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Failed to set config option: enabled-components.release-update-notifications: true | com.fastasyncworldedit.core.configuration.Settings$ENABLED_COMPONENTS@49bf3a35 | Settings.yml. This is likely because it was removed or was set with an invalid value.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Invalid config field: enabled-components.notify-update-ingame for enabled-components. It is possible this is because it has been removed.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Failed to set config option: enabled-components.notify-update-ingame: true | com.fastasyncworldedit.core.configuration.Settings$ENABLED_COMPONENTS@49bf3a35 | Settings.yml. This is likely because it was removed or was set with an invalid value.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Invalid config field: experimental.improved-entity-edits for experimental. It is possible this is because it has been removed.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Failed to set config option: experimental.improved-entity-edits: true | com.fastasyncworldedit.core.configuration.Settings$EXPERIMENTAL@5023c09b | Settings.yml. This is likely because it was removed or was set with an invalid value.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Invalid config field: queue.async-chunk-load-write for queue. It is possible this is because it has been removed.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Failed to set config option: queue.async-chunk-load-write: true | com.fastasyncworldedit.core.configuration.Settings$QUEUE@7956d214 | Settings.yml. This is likely because it was removed or was set with an invalid value.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Invalid config field: queue.thread-target-size-percent for queue. It is possible this is because it has been removed.
-[17:11:01] [Server thread/WARN]: [com.fastasyncworldedit.core.configuration.Config] Failed to set config option: queue.thread-target-size-percent: 50 | com.fastasyncworldedit.core.configuration.Settings$QUEUE@7956d214 | Settings.yml. This is likely because it was removed or was set with an invalid value.
-[17:11:01] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[17:11:02] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[17:11:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:11:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:11:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
-[17:11:04] [Server thread/INFO]: Preparing level "world"
-[17:11:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:11:07] [Server thread/INFO]: Time elapsed: 1947 ms
-[17:11:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:11:07] [Server thread/INFO]: Time elapsed: 441 ms
-[17:11:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:11:08] [Server thread/INFO]: Time elapsed: 307 ms
-[17:11:08] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[17:11:08] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
-[17:11:08] [Server thread/INFO]: [voicechat] Compatibility version 18
-[17:11:08] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[17:11:08] [Server thread/INFO]: [spark] Starting background profiler...
-[17:11:08] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[17:11:08] [Server thread/INFO]: Done preparing level "world" (4.169s)
-[17:11:08] [Server thread/INFO]: Running delayed init tasks
-[17:11:08] [Server thread/INFO]: Done (29.214s)! For help, type "help"
-[17:11:08] [Server thread/INFO]: Timings Reset
-[17:11:08] [Server thread/INFO]: [voicechat] Loading plugins
-[17:11:08] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[17:11:08] [Server thread/INFO]: [voicechat] Initializing plugins
-[17:11:08] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[17:11:08] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[17:14:35] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[17:14:35] [Server thread/INFO]: Stopping server
-[17:14:35] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3
-[17:14:35] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:14:35] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
-[17:14:35] [Server thread/INFO]: Saving players
-[17:14:35] [Server thread/INFO]: Saving worlds
-[17:14:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:14:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:14:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:14:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:14:36] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.55s
-[17:14:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:14:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:14:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:14:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:14:36] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.32s
-[17:14:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:14:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:14:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:14:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:14:37] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.28s
-[17:14:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:14:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:14:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:14:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:54:40] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[07:54:40] [Server thread/INFO]: Stopping server
+[07:54:40] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3
+[07:54:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[07:54:40] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[07:54:40] [Server thread/INFO]: Saving players
+[07:54:40] [Server thread/INFO]: Saving worlds
+[07:54:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:54:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:54:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:54:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:54:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 75 entity chunks, 0 poi chunks in world 'world' in 0.16s
+[07:54:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:54:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:54:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:54:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:54:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[07:54:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:54:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:54:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:54:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:54:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[07:54:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:54:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:54:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:54:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

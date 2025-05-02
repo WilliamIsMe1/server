@@ -19,5 +19,17 @@
     "min_inclusive": 0,
     "max_inclusive": 7
   },
-  "monster_spawn_block_light_limit": 0
+  "monster_spawn_block_light_limit": 0,
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [
+        { "block": "minecraft:bedrock", "height": 1 },
+        { "block": "minecraft:stone", "height": 200 }
+      ],
+      "biome": "minecraft:plains",
+      "lakes": false,
+      "features": false
+    }
+  }
 }
