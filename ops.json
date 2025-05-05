@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "96ef5fc1-6620-4b5f-872c-3385b3e744fe",
+    "name": "Kurotowa",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "09d9d328-1f2a-435c-b255-ba5d30223d35",
     "name": "KaladinBridge4",
     "level": 4,
