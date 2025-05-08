@@ -1,447 +1,103 @@
-[08:42:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Windows 10 10.0 (amd64)
-[08:42:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
-[08:42:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[08:42:24] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\DistantHorizonsSupport-Bukkit-Paper-0.9.0-1.21.1.jar'...
-[08:42:25] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\DistantHorizonsSupport-Bukkit-Paper-0.9.0-1.21.1.jar' in 1379ms.
-[08:42:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[08:42:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[08:20:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Windows 10 10.0 (amd64)
+[08:20:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[08:20:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[08:20:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[08:20:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - DHSupport (0.9.0), FastAsyncWorldEdit (2.12.3)
-[08:42:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08:42:40] [ServerMain/INFO]: Loaded 1290 recipes
-[08:42:40] [ServerMain/INFO]: Loaded 1399 advancements
-[08:42:41] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[08:42:41] [Server thread/INFO]: Loading properties
-[08:42:41] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[08:42:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[08:42:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:42:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:42:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[08:42:46] [Server thread/INFO]: Default game type: CREATIVE
-[08:42:46] [Server thread/INFO]: Generating keypair
-[08:42:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:42:46] [Server thread/INFO]: Using default channel type
-[08:42:46] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[08:42:46] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[08:42:47] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
-[08:42:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@436902d]
-[08:42:49] [Server thread/INFO]: [DHS] Loading server plugin DHSupport v0.9.0
-[08:42:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:42:49] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
-[08:42:49] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[08:42:49] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[08:42:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[08:42:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[08:42:50] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
-[08:42:52] [Server thread/INFO]: Preparing level "world"
-[08:42:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:42:56] [Server thread/INFO]: Time elapsed: 2825 ms
-[08:42:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[08:42:56] [Server thread/INFO]: Time elapsed: 610 ms
-[08:42:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[08:42:57] [Server thread/INFO]: Time elapsed: 195 ms
-[08:42:57] [Server thread/INFO]: [DHS] Enabling DHSupport v0.9.0
-[08:42:57] [Server thread/INFO]: [DHS] I am DHS 0.9.0 for MC 1.21.1.
-[08:42:57] [Server thread/WARN]: [DHS] Chunk generation is enabled. New chunks will be generated as needed to complete LOD generation. This could significantly increase the size of your world.
-[08:42:57] [Server thread/WARN]: [DHS] If you understand what this means and would like to disable this warning, set generate_new_chunks_warning to false in your config.
-[08:42:57] [Server thread/INFO]: [DHS] Using Paper scheduler.
-[08:42:57] [Server thread/INFO]: [DHS] Ready!
-[08:42:57] [Server thread/INFO]: [spark] Starting background profiler...
-[08:42:57] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[08:42:58] [Server thread/INFO]: Done preparing level "world" (5.100s)
-[08:42:58] [Server thread/INFO]: Running delayed init tasks
-[08:42:58] [Server thread/INFO]: Done (37.653s)! For help, type "help"
-[08:42:58] [Server thread/INFO]: Timings Reset
-[14:24:33] [Server thread/INFO]: --------- Help: Index ---------------------------
-[14:24:33] [Server thread/INFO]: Use /help [n] to get page n of help.
-[14:24:33] [Server thread/INFO]: Aliases: Lists command aliases
-[14:24:33] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[14:24:33] [Server thread/INFO]: DHSupport: All commands for DHSupport
-[14:24:33] [Server thread/INFO]: FastAsyncWorldEdit: All commands for FastAsyncWorldEdit
-[14:24:33] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[14:24:33] [Server thread/INFO]: /.s: Execute last CraftScript
-[14:24:33] [Server thread/INFO]: //: Toggle the super pickaxe function
-[14:24:33] [Server thread/INFO]: //air: Sets all the blocks in the region to air
-[14:24:33] [Server thread/INFO]: //blob: Creates a distorted sphere
-[14:24:33] [Server thread/INFO]: //calculate: Evaluate a mathematical expression
-[14:24:33] [Server thread/INFO]: //cancel: Cancel your current command
-[14:24:33] [Server thread/INFO]: //caves: Generates a cave network
-[14:24:33] [Server thread/INFO]: //center: Set the center block(s)
-[14:24:33] [Server thread/INFO]: //chunk: Set the selection to your current chunk.
-[14:24:33] [Server thread/INFO]: //cone: Generates a cone.
-[14:24:33] [Server thread/INFO]: //confirm: Confirm a command
-[14:24:33] [Server thread/INFO]: //contract: Contract the selection area
-[14:24:33] [Server thread/INFO]: //copy: Copy the selection to the clipboard
-[14:24:33] [Server thread/INFO]: //count: Counts the number of blocks matching a mask
-[14:24:33] [Server thread/INFO]: //curve: Draws a spline through selected points
-[14:24:33] [Server thread/INFO]: //cut: Cut the selection to the clipboard
-[14:24:33] [Server thread/INFO]: //cyl: Generates a cylinder.
-[14:24:33] [Server thread/INFO]: //deform: Deforms a selected region with an expression
-[14:24:33] [Server thread/INFO]: //distr: Get the distribution of blocks in the selection
-[14:24:33] [Server thread/INFO]: //drain: Drain a pool
-[14:24:33] [Server thread/INFO]: //drawsel: Toggle drawing the current selection
-[14:24:33] [Server thread/INFO]: //expand: Expand the selection area
-[14:24:33] [Server thread/INFO]: //faces: Build the walls, ceiling, and floor of a selection
-[14:24:33] [Server thread/INFO]: //fall: Have the blocks in the selection fall
-[14:24:33] [Server thread/INFO]: //fast: Toggle fast mode
-[14:24:33] [Server thread/INFO]: //fill: Fill a hole
-[14:24:33] [Server thread/INFO]: //fillr: Fill a hole recursively
-[14:24:33] [Server thread/INFO]: //fixblocks: "Fixes" all blocks in the region to the correct shape/connections based on surrounding blocks
-[14:24:33] [Server thread/INFO]: //fixlighting: Get the light at a position
-[14:24:33] [Server thread/INFO]: //flip: Flip the contents of the clipboard across the origin
-[14:24:33] [Server thread/INFO]: //flora: Make flora within the region
-[14:24:33] [Server thread/INFO]: //forest: Make a forest within the region
-[14:24:33] [Server thread/INFO]: //generate: Generates a shape according to a formula.
-[14:24:33] [Server thread/INFO]: //generatebiome: Sets biome according to a formula.
-[14:24:33] [Server thread/INFO]: //gsmask: Set the global source mask
-[14:24:33] [Server thread/INFO]: //gtexture: Set the global mask
-[14:24:33] [Server thread/INFO]: //gtransform: Set the global transform
-[14:24:33] [Server thread/INFO]: //hcyl: Generates a hollow cylinder.
-[14:24:33] [Server thread/INFO]: //heightmapinterface: Generate the heightmap interface: https://github.com/IntellectualSites/HeightMap
-[14:24:33] [Server thread/INFO]: //help: Displays help for WorldEdit commands
-[14:24:33] [Server thread/INFO]: //history: Manage your history
-[14:24:33] [Server thread/INFO]: //hollow: Hollows out the object contained in this selection
-[14:24:33] [Server thread/INFO]: //hpos1: Set position 1 to targeted block
-[14:24:33] [Server thread/INFO]: //hpos2: Set position 2 to targeted block
-[14:24:33] [Server thread/INFO]: //hpyramid: Generate a hollow pyramid
-[14:24:33] [Server thread/INFO]: //hsphere: Generates a hollow sphere.
-[14:24:33] [Server thread/INFO]: //img: Generate an image
-[14:24:33] [Server thread/INFO]: //inset: Inset the selection area
-[14:24:33] [Server thread/INFO]: //lay: Set the top block in the region
-[14:24:33] [Server thread/INFO]: //lazycopy: Lazily copy the selection to the clipboard
-[14:24:33] [Server thread/INFO]: //limit: Modify block change limit
-[14:24:33] [Server thread/INFO]: //line: Draws line segments between cuboid selection corners or convex polyhedral selection vertices
-[14:24:33] [Server thread/INFO]: //macro: Generate or run a macro
-[14:24:33] [Server thread/INFO]: //move: Move the contents of the selection
-[14:24:33] [Server thread/INFO]: //naturalize: 3 layers of dirt on top then rock below
-[14:24:33] [Server thread/INFO]: //nbtinfo: View nbt info for a block
-[14:24:33] [Server thread/INFO]: //ore: Generates ores
-[14:24:33] [Server thread/INFO]: //ores: Generates ores
-[14:24:33] [Server thread/INFO]: //outset: Outset the selection area
-[14:24:33] [Server thread/INFO]: //overlay: Set a block on top of blocks in the region
-[14:24:33] [Server thread/INFO]: //paste: Paste the clipboard's contents
-[14:24:33] [Server thread/INFO]: //perf: Toggle side effects for performance
-[14:24:33] [Server thread/INFO]: //place: Place the clipboard's contents without applying transformations (e.g. rotate)
-[14:24:33] [Server thread/INFO]: //pos1: Set position 1
-[14:24:33] [Server thread/INFO]: //pos2: Set position 2
-[14:24:33] [Server thread/INFO]: //pyramid: Generate a filled pyramid
-[14:24:33] [Server thread/INFO]: //regen: Regenerates the contents of the selection
-[14:24:33] [Server thread/INFO]: //removelighting: Removing lighting in a selection
-[14:24:33] [Server thread/INFO]: //reorder: Sets the reorder mode of WorldEdit
-[14:24:33] [Server thread/INFO]: //replace: Replace all blocks in the selection with another
-[14:24:33] [Server thread/INFO]: //rotate: Rotate the contents of the clipboard
-[14:24:33] [Server thread/INFO]: //sel: Choose a region selector
-[14:24:33] [Server thread/INFO]: //set: Sets all the blocks in the region
-[14:24:33] [Server thread/INFO]: //setbiome: Sets the biome of your current block or region.
-[14:24:33] [Server thread/INFO]: //setblocklight: Set block lighting in a selection
-[14:24:33] [Server thread/INFO]: //setskylight: Set sky lighting in a selection
-[14:24:33] [Server thread/INFO]: //shift: Shift the selection area
-[14:24:33] [Server thread/INFO]: //size: Get information about the selection
-[14:24:33] [Server thread/INFO]: //smooth: Smooth the elevation in the selection
-[14:24:33] [Server thread/INFO]: //snowsmooth: Smooth the elevation in the selection with snow layers
-[14:24:33] [Server thread/INFO]: //sphere: Generates a filled sphere.
-[14:24:33] [Server thread/INFO]: //stack: Repeat the contents of the selection
-[14:24:33] [Server thread/INFO]: //test: test region
-[14:24:33] [Server thread/INFO]: //timeout: Modify evaluation timeout time.
-[14:24:33] [Server thread/INFO]: //tips: Toggle FAWE tips
-[14:24:33] [Server thread/INFO]: //walls: Build the four sides of the selection
-[14:24:33] [Server thread/INFO]: //wand: Get the wand object
-[14:24:33] [Server thread/INFO]: //watchdog: Changes watchdog hook state.
-[14:24:33] [Server thread/INFO]: //wea: Bypass region restrictions
-[14:24:33] [Server thread/INFO]: //wer: Select your current allowed region
-[14:24:33] [Server thread/INFO]: //world: Sets the world override
-[14:24:33] [Server thread/INFO]: /advancement: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /ascend: Go up a floor
-[14:24:33] [Server thread/INFO]: /attribute: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /ban: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /banlist: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /biomeinfo: Get the biome of the targeted block.
-[14:24:33] [Server thread/INFO]: /biomelist: Gets all biomes available.
-[14:24:33] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /brush: Brushing commands
-[14:24:33] [Server thread/INFO]: /butcher: Kill all or nearby mobs
-[14:24:33] [Server thread/INFO]: /callback: ClickEvent callback
-[14:24:33] [Server thread/INFO]: /ceil: Go to the ceiling
-[14:24:33] [Server thread/INFO]: /chunkinfo: Get information about the chunk you're inside
-[14:24:33] [Server thread/INFO]: /clear: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /clearclipboard: Clear your clipboard
-[14:24:33] [Server thread/INFO]: /clearhistory: Clear your history
-[14:24:33] [Server thread/INFO]: /clone: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /cs: Execute a CraftScript
-[14:24:33] [Server thread/INFO]: /cycler: Block data cycler tool
-[14:24:33] [Server thread/INFO]: /damage: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /data: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /datapack: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /debug: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /delchunks: Delete chunks that your selection includes
-[14:24:33] [Server thread/INFO]: /deltree: Floating tree remover tool
-[14:24:33] [Server thread/INFO]: /deop: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /descend: Go down a floor
-[14:24:33] [Server thread/INFO]: /dh: Not used.
-[14:24:33] [Server thread/INFO]: /dhs: Manage DH Support.
-[14:24:33] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /download: Downloads your clipboard through the configured web interface
-[14:24:33] [Server thread/INFO]: /effect: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /enchant: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /execute: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /experience: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /extinguish: Extinguish nearby fire
-[14:24:33] [Server thread/INFO]: /farwand: Wand at a distance tool
-[14:24:33] [Server thread/INFO]: /fill: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /fillbiome: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /fixlava: Fix lava to be stationary
-[14:24:33] [Server thread/INFO]: /fixwater: Fix water to be stationary
-[14:24:33] [Server thread/INFO]: /floodfill: Flood fill tool
-[14:24:33] [Server thread/INFO]: /forceload: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /forestgen: Generate a forest
-[14:24:33] [Server thread/INFO]: /function: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /give: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /gmask: Set the global mask
-[14:24:33] [Server thread/INFO]: /green: Converts dirt to grass blocks in the area
-[14:24:33] [Server thread/INFO]: /help: Shows the help menu
-[14:24:33] [Server thread/INFO]: /info: Block information tool
-[14:24:33] [Server thread/INFO]: /inspect: Inspect edits within a radius
-[14:24:33] [Server thread/INFO]: /item: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /jfr: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /jumpto: Teleport to a location
-[14:24:33] [Server thread/INFO]: /kick: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /kill: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /list: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /listchunks: List chunks that your selection includes
-[14:24:33] [Server thread/INFO]: /locate: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /loot: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /lrbuild: Long-range building tool
-[14:24:33] [Server thread/INFO]: /mask: Set the brush destination mask
-[14:24:33] [Server thread/INFO]: /material: Set the brush material
-[14:24:33] [Server thread/INFO]: /me: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:advancement: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:attribute: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:ban: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:ban-ip: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:banlist: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:bossbar: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:clear: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:clone: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:damage: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:data: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:datapack: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:debug: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:defaultgamemode: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:deop: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:difficulty: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:effect: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:enchant: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:execute: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:experience: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:fill: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:fillbiome: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:forceload: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:function: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:gamemode: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:gamerule: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:give: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:item: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:jfr: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:kick: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:list: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:locate: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:loot: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:me: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:msg: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:op: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:pardon: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:pardon-ip: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:particle: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:perf: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:place: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:playsound: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:random: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:recipe: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:return: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:ride: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:save-all: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:save-off: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:save-on: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:say: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:schedule: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:scoreboard: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:seed: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:setblock: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:setidletimeout: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:setworldspawn: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:spawnpoint: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:spectate: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:spreadplayers: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:stop: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:stopsound: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:summon: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:tag: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:team: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:teammsg: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:tellraw: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:tick: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:title: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:tm: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:transfer: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:trigger: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:w: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:whitelist: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:worldborder: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /minecraft:xp: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /msg: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /mspt: View server tick times
-[14:24:33] [Server thread/INFO]: /navwand: Navigation wand tool
-[14:24:33] [Server thread/INFO]: /none: Unbind a bound tool from your current item
-[14:24:33] [Server thread/INFO]: /op: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /paper: Paper related commands
-[14:24:33] [Server thread/INFO]: /paper:spark: 
-[14:24:33] [Server thread/INFO]: /pardon: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /particle: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /perf: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /place: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /playsound: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[14:24:33] [Server thread/INFO]: /primary: Set the right click brush
-[14:24:33] [Server thread/INFO]: /pumpkins: Generate pumpkin patches
-[14:24:33] [Server thread/INFO]: /random: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /range: Set the brush range
-[14:24:33] [Server thread/INFO]: /recipe: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /redo: Redoes the last action (from history)
-[14:24:33] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[14:24:33] [Server thread/INFO]: /remove: Remove all entities of a type
-[14:24:33] [Server thread/INFO]: /removeabove: Remove blocks above your head.
-[14:24:33] [Server thread/INFO]: /removebelow: Remove blocks below you.
-[14:24:33] [Server thread/INFO]: /removenear: Remove blocks near you.
-[14:24:33] [Server thread/INFO]: /repl: Block replacer tool
-[14:24:33] [Server thread/INFO]: /replacenear: Replace nearby blocks
-[14:24:33] [Server thread/INFO]: /restart: Restarts the server
-[14:24:33] [Server thread/INFO]: /restore: Restore the selection from a snapshot
-[14:24:33] [Server thread/INFO]: /return: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /ride: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /save-all: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /save-off: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /save-on: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /say: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /schedule: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /schematic: Schematic commands for saving/loading areas
-[14:24:33] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /scroll: Toggle between different target modes
-[14:24:33] [Server thread/INFO]: /searchitem: Search for an item
-[14:24:33] [Server thread/INFO]: /secondary: Set the left click brush
-[14:24:33] [Server thread/INFO]: /seed: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /selwand: Selection wand tool
-[14:24:33] [Server thread/INFO]: /setblock: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /size: Set the brush size
-[14:24:33] [Server thread/INFO]: /smask: Set the brush source mask
-[14:24:33] [Server thread/INFO]: /snapshot: Snapshot commands for restoring backups
-[14:24:33] [Server thread/INFO]: /snow: Simulates snow
-[14:24:33] [Server thread/INFO]: /spark: 
-[14:24:33] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /spectate: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /spigot: Spigot related commands
-[14:24:33] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /stacker: Block stacker tool
-[14:24:33] [Server thread/INFO]: /stop: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /summon: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /superpickaxe: Super-pickaxe commands
-[14:24:33] [Server thread/INFO]: /tag: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /target: Toggle between different target modes
-[14:24:33] [Server thread/INFO]: /targetoffset: Set the targeting mask
-[14:24:33] [Server thread/INFO]: /team: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /teleport: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /tell: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /thaw: Thaws the area
-[14:24:33] [Server thread/INFO]: /thru: Pass through walls
-[14:24:33] [Server thread/INFO]: /tick: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /time: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[14:24:33] [Server thread/INFO]: /title: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /toggleeditwand: Remind the user that the wand is now a tool and can be unbound with /tool none.
-[14:24:33] [Server thread/INFO]: /toggleplace: Switch between your position and pos1 for placement
-[14:24:33] [Server thread/INFO]: /tp: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[14:24:33] [Server thread/INFO]: /tracemask: Set the mask used to stop tool traces
-[14:24:33] [Server thread/INFO]: /transfer: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /transform: Set the brush transform
-[14:24:33] [Server thread/INFO]: /tree: Tree generator tool
-[14:24:33] [Server thread/INFO]: /trigger: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /undo: Undoes the last action (from history)
-[14:24:33] [Server thread/INFO]: /unstuck: Escape from being stuck inside a block
-[14:24:33] [Server thread/INFO]: /up: Go upwards some distance
-[14:24:33] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[14:24:33] [Server thread/INFO]: /w: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /weather: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[14:24:33] [Server thread/INFO]: /worldedit: WorldEdit commands
-[14:24:33] [Server thread/INFO]: /xp: A Mojang provided command.
-[14:26:36] [Server thread/INFO]: Missing sub-command.
-[14:26:38] [AsyncNotifyKeyedQueue - 0/INFO]: This command must be used with a player.
-[14:26:41] [Server thread/INFO]: --------- Help: /dhs ----------------------------
-[14:26:41] [Server thread/INFO]: Description: Manage DH Support.
-[14:26:41] [Server thread/INFO]: Usage: /dhs
-[14:26:45] [Server thread/INFO]: Unknown sub-command.
-[14:26:48] [Server thread/INFO]: Unknown sub-command.
-[14:26:52] [Server thread/INFO]: Unknown sub-command.
-[14:26:55] [Server thread/INFO]: Unknown sub-command.
-[14:26:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
-what<--[HERE]
-[14:49:52] [Server thread/INFO]: --------- Help: /gamerule -----------------------
-[14:49:52] [Server thread/INFO]: Description: A Mojang provided command.
-[14:49:52] [Server thread/INFO]: Usage: gamerule
-[14:49:58] [Server thread/INFO]: Unknown or incomplete command, see below for error
-gamerule<--[HERE]
-[14:50:05] [Server thread/INFO]: Incorrect argument for command
-gamerule a<--[HERE]
-[18:34:45] [User Authenticator #0/INFO]: UUID of player WilliamIsMe123 is 43a35f47-59cf-4565-a3fc-870b651d0f58
-[18:34:48] [Server thread/INFO]: WilliamIsMe123 joined the game
-[18:34:49] [Server thread/INFO]: WilliamIsMe123[/[0:0:0:0:0:0:0:1]:63569] logged in with entity id 4 at ([world]-5.850094913220732, 357.3659564745348, -47.897338239434326)
-[18:34:51] [Server thread/INFO]: [DHS] Received DH config for WilliamIsMe123 in world
-[18:36:03] [Server thread/INFO]: WilliamIsMe123 lost connection: Disconnected
-[18:36:03] [Server thread/INFO]: WilliamIsMe123 left the game
-[18:36:07] [Server thread/INFO]: [DHS] Generation in progress: 90 processed, 2 in queue, 1.39 per second.
-[18:37:12] [Server thread/INFO]: [DHS] Generation in progress: 10 processed, 0 in queue, 0.15 per second.
-[20:23:59] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[20:23:59] [Server thread/INFO]: Stopping server
-[20:23:59] [Server thread/INFO]: [DHS] Disabling DHSupport v0.9.0
-[20:23:59] [Server thread/INFO]: [DHS] Lights out!
-[20:23:59] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3
-[20:23:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:23:59] [Server thread/INFO]: Saving players
-[20:23:59] [Server thread/INFO]: Saving worlds
-[20:23:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:23:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:23:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:23:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:24:00] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 53 entity chunks, 0 poi chunks in world 'world' in 0.10s
-[20:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:24:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:24:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:24:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:24:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[20:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:24:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:24:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:24:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:24:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[20:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:21:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:21:08] [ServerMain/INFO]: Loaded 1290 recipes
+[08:21:09] [ServerMain/INFO]: Loaded 1399 advancements
+[08:21:09] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[08:21:09] [Server thread/INFO]: Loading properties
+[08:21:09] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[08:21:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[08:21:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:21:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:21:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[08:21:13] [Server thread/INFO]: Default game type: CREATIVE
+[08:21:13] [Server thread/INFO]: Generating keypair
+[08:21:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:21:13] [Server thread/INFO]: Using default channel type
+[08:21:13] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[08:21:13] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[08:21:13] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
+[08:21:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@58aee8c7]
+[08:21:15] [Server thread/INFO]: [DHS] Loading server plugin DHSupport v0.9.0
+[08:21:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:21:15] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
+[08:21:15] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[08:21:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[08:21:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[08:21:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[08:21:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[08:21:19] [Server thread/INFO]: Preparing level "world"
+[08:21:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:21:22] [Server thread/INFO]: Time elapsed: 2395 ms
+[08:21:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:21:23] [Server thread/INFO]: Time elapsed: 364 ms
+[08:21:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:21:23] [Server thread/INFO]: Time elapsed: 292 ms
+[08:21:23] [Server thread/INFO]: [DHS] Enabling DHSupport v0.9.0
+[08:21:23] [Server thread/INFO]: [DHS] I am DHS 0.9.0 for MC 1.21.1.
+[08:21:23] [Server thread/INFO]: [DHS] Using Paper scheduler.
+[08:21:23] [Server thread/INFO]: [DHS] Ready!
+[08:21:23] [Server thread/INFO]: [spark] Starting background profiler...
+[08:21:23] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[08:21:24] [Server thread/INFO]: Done preparing level "world" (4.607s)
+[08:21:24] [Server thread/INFO]: Running delayed init tasks
+[08:21:24] [Server thread/INFO]: Done (34.699s)! For help, type "help"
+[08:21:24] [Server thread/INFO]: Timings Reset
+[15:10:14] [User Authenticator #0/INFO]: UUID of player WilliamIsMe123 is 43a35f47-59cf-4565-a3fc-870b651d0f58
+[15:10:18] [Server thread/INFO]: WilliamIsMe123 joined the game
+[15:10:19] [Server thread/INFO]: WilliamIsMe123[/[0:0:0:0:0:0:0:1]:54343] logged in with entity id 3 at ([world]-94.57104432459518, 400.48549750735657, 95.52577546561557)
+[15:10:42] [Server thread/INFO]: [DHS] Received DH config for WilliamIsMe123 in world
+[15:11:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3064ms or 61 ticks behind
+[15:11:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2827ms or 56 ticks behind
+[15:11:54] [Server thread/INFO]: [DHS] Generation in progress: 69 processed, 1 in queue, 1.12 per second.
+[15:12:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2626ms or 52 ticks behind
+[15:12:45] [Server thread/INFO]: WilliamIsMe123 issued server command: /gamemode spectator
+[15:12:46] [Server thread/INFO]: [WilliamIsMe123: Set own game mode to Spectator Mode]
+[15:12:55] [Server thread/INFO]: [DHS] Generation in progress: 54 processed, 0 in queue, 0.88 per second.
+[15:13:03] [Server thread/WARN]: WilliamIsMe123 moved too quickly! -13.093464655812745,10.500000417232513,6.114354748718924
+[15:13:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2680ms or 53 ticks behind
+[15:13:17] [Server thread/WARN]: WilliamIsMe123 moved too quickly! -7.14944180468413,7.066562189057947,3.108629546930331
+[15:13:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3366ms or 67 ticks behind
+[15:13:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2757ms or 55 ticks behind
+[15:13:51] [Server thread/WARN]: WilliamIsMe123 moved too quickly! -93.64202508116807,0.0,-18.064172607300634
+[15:13:59] [Server thread/INFO]: [DHS] Generation in progress: 44 processed, 0 in queue, 0.69 per second.
+[15:14:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8352ms or 167 ticks behind
+[15:14:18] [Server thread/WARN]: WilliamIsMe123 moved too quickly! 117.94193475228724,-68.2500027120957,-66.32978920566299
+[15:14:35] [Server thread/WARN]: WilliamIsMe123 moved too quickly! -9.831926205419336,-44.998220361965764,-8.657020559137548
+[15:14:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4306ms or 86 ticks behind
+[15:14:37] [Server thread/WARN]: WilliamIsMe123 moved too quickly! 0.02113983761802274,-41.25000246815506,-20.912842009123917
+[15:14:41] [Server thread/WARN]: WilliamIsMe123 moved too quickly! -69.81879262166237,-35.98172867154392,33.77924283926255
+[15:14:51] [Server thread/INFO]: WilliamIsMe123 lost connection: Disconnected
+[15:14:52] [Server thread/INFO]: WilliamIsMe123 left the game
+[15:15:02] [Server thread/INFO]: [DHS] Generation in progress: 72 processed, 0 in queue, 1.15 per second.
+[20:34:12] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[20:34:12] [Server thread/INFO]: Stopping server
+[20:34:12] [Server thread/INFO]: [DHS] Disabling DHSupport v0.9.0
+[20:34:12] [Server thread/INFO]: [DHS] Lights out!
+[20:34:12] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3
+[20:34:12] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:34:12] [Server thread/INFO]: Saving players
+[20:34:12] [Server thread/INFO]: Saving worlds
+[20:34:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 57 entity chunks, 0 poi chunks in world 'world' in 0.16s
+[20:34:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[20:34:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:34:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[20:34:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:34:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:34:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:34:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
