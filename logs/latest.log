@@ -1,138 +1,104 @@
-[09:19:30] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Windows 10 10.0 (amd64)
-[09:19:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
-[09:19:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[09:19:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[09:19:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[12:57:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Windows 10 10.0 (amd64)
+[12:57:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[12:57:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:57:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[12:57:29] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - DHSupport (0.9.0), FastAsyncWorldEdit (2.12.3)
-[09:19:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:19:55] [ServerMain/INFO]: Loaded 1290 recipes
-[09:19:56] [ServerMain/INFO]: Loaded 1399 advancements
-[09:19:56] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[09:19:56] [Server thread/INFO]: Loading properties
-[09:19:56] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[09:19:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[09:19:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:19:59] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:20:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[09:20:02] [Server thread/INFO]: Default game type: CREATIVE
-[09:20:02] [Server thread/INFO]: Generating keypair
-[09:20:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:20:02] [Server thread/INFO]: Using default channel type
-[09:20:02] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[09:20:02] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[09:20:02] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
-[09:20:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5af1e13e]
-[09:20:05] [Server thread/INFO]: [DHS] Loading server plugin DHSupport v0.9.0
-[09:20:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:20:05] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
-[09:20:05] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[09:20:06] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[09:20:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[09:20:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[09:20:07] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
-[09:20:10] [Server thread/INFO]: Preparing level "world"
-[09:20:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:20:13] [Server thread/INFO]: Time elapsed: 2719 ms
-[09:20:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:20:14] [Server thread/INFO]: Time elapsed: 781 ms
-[09:20:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:20:14] [Server thread/INFO]: Time elapsed: 212 ms
-[09:20:14] [Server thread/INFO]: [DHS] Enabling DHSupport v0.9.0
-[09:20:14] [Server thread/INFO]: [DHS] I am DHS 0.9.0 for MC 1.21.1.
-[09:20:15] [Server thread/INFO]: [DHS] Using Paper scheduler.
-[09:20:15] [Server thread/INFO]: [DHS] Ready!
-[09:20:15] [Server thread/INFO]: [spark] Starting background profiler...
-[09:20:15] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[09:20:15] [Server thread/INFO]: Done preparing level "world" (5.606s)
-[09:20:15] [Server thread/INFO]: Running delayed init tasks
-[09:20:16] [Server thread/INFO]: Done (47.873s)! For help, type "help"
-[09:20:16] [Server thread/INFO]: Timings Reset
-[17:38:50] [User Authenticator #0/INFO]: UUID of player Titonfish is 42c7c268-1c39-4b13-85f3-f08e4833e466
-[17:38:52] [Server thread/INFO]: Titonfish joined the game
-[17:38:52] [Server thread/INFO]: Titonfish[/[0:0:0:0:0:0:0:1]:64688] logged in with entity id 3 at ([world]-1.5, 940.0, 8.5)
-[17:39:23] [Server thread/INFO]: Titonfish has made the advancement [Caves & Cliffs]
-[17:40:18] [Server thread/INFO]: Titonfish has reached the goal [Sky's the Limit]
-[17:41:16] [Server thread/INFO]: Titonfish issued server command: /help
-[17:41:24] [Server thread/INFO]: Titonfish issued server command: /help 2
-[17:42:10] [Server thread/INFO]: [DHS] Generation in progress: 1 processed, 0 in queue, 0.02 per second.
-[17:46:30] [Server thread/INFO]: [DHS] Generation in progress: 1 processed, 0 in queue, 0.02 per second.
-[17:47:02] [Server thread/INFO]: Titonfish issued server command: /help 3
-[17:47:05] [Server thread/INFO]: Titonfish issued server command: /worldedit
-[17:47:14] [Server thread/INFO]: Titonfish issued server command: /worldedit version
-[17:47:22] [Server thread/INFO]: Titonfish issued server command: /worldedit help
-[17:47:27] [Server thread/INFO]: Titonfish issued server command: /worldedit.help
-[17:47:35] [Server thread/INFO]: [DHS] Generation in progress: 1 processed, 0 in queue, 0.02 per second.
-[17:48:55] [Server thread/INFO]: [DHS] Generation in progress: 2 processed, 0 in queue, 0.03 per second.
-[17:51:33] [Server thread/INFO]: Made Titonfish a server operator
-[17:51:40] [Server thread/INFO]: [Not Secure] [Server] Hi! This is William
-[17:51:49] [Server thread/INFO]: [Not Secure] [Server] DO you know how to use //hcyl?
-[17:52:00] [Server thread/INFO]: [DHS] Generation in progress: 4 processed, 0 in queue, 0.07 per second.
-[17:52:02] [Server thread/INFO]: [Not Secure] [Server] Or can you terraform?
-[17:52:20] [Async Chat Thread - #1/INFO]: <Titonfish> I don't believe I have access to any commands
-[17:52:30] [Async Chat Thread - #1/INFO]: <Titonfish> I don't have the permissions yet
-[17:52:50] [Async Chat Thread - #1/INFO]: <Titonfish> I do know how to do //hcyl, roughly
-[17:52:55] [Server thread/INFO]: [Not Secure] [Server] I just opped you
-[17:52:58] [Server thread/INFO]: [Not Secure] [Server] try it
-[17:53:23] [Server thread/INFO]: Titonfish issued server command: //hcyl hay_block 3 3
-[17:53:23] [AsyncNotifyKeyedQueue - 1/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightStarlightRelighterFactory as relighter factory.
-[17:53:35] [Server thread/INFO]: [DHS] Generation in progress: 1 processed, 0 in queue, 0.02 per second.
-[17:53:38] [Async Chat Thread - #1/INFO]: <Titonfish> yep, can do it now
-[17:53:54] [Server thread/INFO]: [Not Secure] [Server] nice. gtg!
-[17:53:58] [Server thread/INFO]: [Not Secure] [Server] Dinner calls
-[17:54:04] [Async Chat Thread - #1/INFO]: <Titonfish> fair enough
-[17:54:50] [Server thread/INFO]: [DHS] Generation in progress: 4 processed, 0 in queue, 0.07 per second.
-[17:58:15] [Server thread/INFO]: [DHS] Generation in progress: 1 processed, 0 in queue, 0.02 per second.
-[17:59:20] [Server thread/INFO]: [DHS] Generation in progress: 1 processed, 0 in queue, 0.02 per second.
-[17:59:56] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.gravity
-[17:59:58] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.gravity get
-[18:00:12] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.gravity modifier value get 0
-[18:00:18] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.gravity base set 0
-[18:01:00] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.gravity base set 0.01
-[18:01:08] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.gravity base set 0
-[18:01:48] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.movement_efficiency base get
-[18:02:00] [Server thread/INFO]: [DHS] Generation in progress: 1 processed, 0 in queue, 0.02 per second.
-[18:02:10] [Server thread/INFO]: [Not Secure] [Server] hmmmm never knew those existed
-[18:02:29] [Async Chat Thread - #3/INFO]: <Titonfish> yeah, I've worked with them before, very cool
-[18:02:35] [Async Chat Thread - #3/INFO]: <Titonfish> trying to make an edgedancer lol
-[18:02:46] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.movement_efficiency base set 5
-[18:02:49] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.movement_efficiency base set 0
-[18:02:56] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.movement_speed base get
-[18:03:08] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:generic.movement_speed base set 1
-[18:03:23] [Server thread/INFO]: Titonfish issued server command: /give Titonfish minecraft:command_block
-[18:03:23] [Server thread/INFO]: [Titonfish: Gave 1 [Command Block] to Titonfish]
-[18:04:30] [Server thread/INFO]: [DHS] Generation in progress: 3 processed, 0 in queue, 0.05 per second.
-[18:06:57] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:player.sneaking_speed base get
-[18:07:09] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:player.sneaking_speed base set 1.2
-[18:07:14] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:player.sneaking_speed base set 3
-[18:07:22] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:player.sneaking_speed base set 10
-[18:07:40] [Server thread/INFO]: Titonfish issued server command: /attribute Titonfish minecraft:player.sneaking_speed base set 0.3
-[18:08:25] [Server thread/INFO]: Titonfish lost connection: Disconnected
-[18:08:25] [Server thread/INFO]: Titonfish left the game
-[18:08:45] [Server thread/INFO]: [DHS] Generation in progress: 1 processed, 0 in queue, 0.02 per second.
-[20:09:10] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[20:09:10] [Server thread/INFO]: Stopping server
-[20:09:10] [Server thread/INFO]: [DHS] Disabling DHSupport v0.9.0
-[20:09:10] [Server thread/INFO]: [DHS] Lights out!
-[20:09:10] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3
-[20:09:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:09:10] [Server thread/INFO]: Saving players
-[20:09:10] [Server thread/INFO]: Saving worlds
-[20:09:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 59 entity chunks, 0 poi chunks in world 'world' in 0.09s
-[20:09:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[20:09:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:09:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[20:09:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:09:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:09:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:09:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:57:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:57:44] [ServerMain/INFO]: Loaded 1290 recipes
+[12:57:44] [ServerMain/INFO]: Loaded 1399 advancements
+[12:57:45] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[12:57:45] [Server thread/INFO]: Loading properties
+[12:57:45] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[12:57:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:57:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:57:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:57:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[12:57:48] [Server thread/INFO]: Default game type: CREATIVE
+[12:57:48] [Server thread/INFO]: Generating keypair
+[12:57:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:57:49] [Server thread/INFO]: Using default channel type
+[12:57:49] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[12:57:49] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:57:49] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
+[12:57:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@165ef9b6]
+[12:57:51] [Server thread/INFO]: [DHS] Loading server plugin DHSupport v0.9.0
+[12:57:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:57:51] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
+[12:57:51] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[12:57:52] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[12:57:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:57:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:57:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[12:57:54] [Server thread/INFO]: Preparing level "world"
+[12:57:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:57:58] [Server thread/INFO]: Time elapsed: 2781 ms
+[12:57:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:57:58] [Server thread/INFO]: Time elapsed: 543 ms
+[12:57:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:57:58] [Server thread/INFO]: Time elapsed: 243 ms
+[12:57:58] [Server thread/INFO]: [DHS] Enabling DHSupport v0.9.0
+[12:57:58] [Server thread/INFO]: [DHS] I am DHS 0.9.0 for MC 1.21.1.
+[12:57:59] [Server thread/INFO]: [DHS] Using Paper scheduler.
+[12:57:59] [Server thread/INFO]: [DHS] Ready!
+[12:57:59] [Server thread/INFO]: [spark] Starting background profiler...
+[12:57:59] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[12:57:59] [Server thread/INFO]: Done preparing level "world" (5.220s)
+[12:57:59] [Server thread/INFO]: Running delayed init tasks
+[12:57:59] [Server thread/INFO]: Done (35.594s)! For help, type "help"
+[12:57:59] [Server thread/INFO]: Timings Reset
+[14:59:05] [User Authenticator #0/INFO]: UUID of player WilliamIsMe123 is 43a35f47-59cf-4565-a3fc-870b651d0f58
+[14:59:07] [Server thread/INFO]: WilliamIsMe123 joined the game
+[14:59:08] [Server thread/INFO]: WilliamIsMe123[/[0:0:0:0:0:0:0:1]:53949] logged in with entity id 4 at ([world]-343.32678697559726, 555.6951041318363, 119.19162911883636)
+[14:59:11] [Server thread/INFO]: [DHS] Received DH config for WilliamIsMe123 in world
+[14:59:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3341ms or 66 ticks behind
+[14:59:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3933ms or 78 ticks behind
+[15:00:13] [Server thread/INFO]: WilliamIsMe123 issued server command: /gamemode creative
+[15:00:13] [Server thread/INFO]: [WilliamIsMe123: Set own game mode to Creative Mode]
+[15:00:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2571ms or 51 ticks behind
+[15:00:24] [Server thread/INFO]: [DHS] Generation in progress: 32 processed, 0 in queue, 0.49 per second.
+[15:00:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2578ms or 51 ticks behind
+[15:01:27] [Server thread/INFO]: [DHS] Generation in progress: 66 processed, 0 in queue, 1.06 per second.
+[15:03:02] [Server thread/INFO]: WilliamIsMe123 issued server command: //cyl air 70.5 100
+[15:03:03] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightStarlightRelighterFactory as relighter factory.
+[15:03:47] [Server thread/INFO]: [DHS] Generation in progress: 2 processed, 0 in queue, 0.03 per second.
+[15:04:39] [Server thread/INFO]: WilliamIsMe123 issued server command: //hcyl stone 70 100
+[15:05:02] [Server thread/INFO]: [DHS] Generation in progress: 23 processed, 0 in queue, 0.38 per second.
+[15:05:48] [Server thread/INFO]: WilliamIsMe123 lost connection: Disconnected
+[15:05:49] [Server thread/INFO]: WilliamIsMe123 left the game
+[15:06:02] [Server thread/INFO]: [DHS] Generation in progress: 71 processed, 0 in queue, 1.18 per second.
+[16:15:30] [User Authenticator #1/INFO]: UUID of player WilliamIsMe123 is 43a35f47-59cf-4565-a3fc-870b651d0f58
+[16:15:31] [Server thread/INFO]: WilliamIsMe123 joined the game
+[16:15:31] [Server thread/INFO]: WilliamIsMe123[/[0:0:0:0:0:0:0:1]:54209] logged in with entity id 342 at ([world]-15.492228687622497, 914.0695131771395, -11.06071596967873)
+[16:15:33] [Server thread/INFO]: [DHS] Received DH config for WilliamIsMe123 in world
+[16:16:47] [Server thread/INFO]: WilliamIsMe123 lost connection: Disconnected
+[16:16:47] [Server thread/INFO]: WilliamIsMe123 left the game
+[16:17:02] [Server thread/INFO]: [DHS] Generation in progress: 155 processed, 0 in queue, 2.58 per second.
+[21:14:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 905544ms or 18110 ticks behind
+[21:15:15] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[21:15:15] [Server thread/INFO]: Stopping server
+[21:15:15] [Server thread/INFO]: [DHS] Disabling DHSupport v0.9.0
+[21:15:15] [Server thread/INFO]: [DHS] Lights out!
+[21:15:15] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3
+[21:15:15] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:15:15] [Server thread/INFO]: Saving players
+[21:15:15] [Server thread/INFO]: Saving worlds
+[21:15:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 60 entity chunks, 0 poi chunks in world 'world' in 0.22s
+[21:15:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[21:15:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:15:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[21:15:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:15:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:15:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:15:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
