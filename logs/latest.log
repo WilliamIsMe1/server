@@ -1,157 +1,78 @@
-[08:07:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Windows 10 10.0 (amd64)
-[08:07:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
-[08:07:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[08:07:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[08:07:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[08:04:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Windows 10 10.0 (amd64)
+[08:04:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[08:04:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[08:04:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[08:04:16] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - DHSupport (0.9.0), FastAsyncWorldEdit (2.12.3)
-[08:07:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08:08:04] [ServerMain/INFO]: Loaded 1290 recipes
-[08:08:04] [ServerMain/INFO]: Loaded 1399 advancements
-[08:08:05] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[08:08:05] [Server thread/INFO]: Loading properties
-[08:08:06] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[08:08:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[08:08:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:08:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:08:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[08:08:12] [Server thread/INFO]: Default game type: CREATIVE
-[08:08:12] [Server thread/INFO]: Generating keypair
-[08:08:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:08:12] [Server thread/INFO]: Using default channel type
-[08:08:12] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[08:08:12] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[08:08:13] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
-[08:08:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@982536f]
-[08:08:16] [Server thread/INFO]: [DHS] Loading server plugin DHSupport v0.9.0
-[08:08:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:08:16] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
-[08:08:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[08:08:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[08:08:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[08:08:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[08:08:17] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
-[08:08:21] [Server thread/INFO]: Preparing level "world"
-[08:08:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:08:26] [Server thread/INFO]: Time elapsed: 3744 ms
-[08:08:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[08:08:27] [Server thread/INFO]: Time elapsed: 639 ms
-[08:08:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[08:08:27] [Server thread/INFO]: Time elapsed: 373 ms
-[08:08:27] [Server thread/INFO]: [DHS] Enabling DHSupport v0.9.0
-[08:08:27] [Server thread/INFO]: [DHS] I am DHS 0.9.0 for MC 1.21.1.
-[08:08:27] [Server thread/INFO]: [DHS] Using Paper scheduler.
-[08:08:27] [Server thread/INFO]: [DHS] Ready!
-[08:08:28] [Server thread/INFO]: [spark] Starting background profiler...
-[08:08:28] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[08:08:28] [Server thread/INFO]: Done preparing level "world" (6.873s)
-[08:08:28] [Server thread/INFO]: Running delayed init tasks
-[08:08:28] [Server thread/INFO]: Done (56.215s)! For help, type "help"
-[08:08:28] [Server thread/INFO]: Timings Reset
-[11:07:03] [User Authenticator #0/INFO]: UUID of player KaladinBridge4 is 09d9d328-1f2a-435c-b255-ba5d30223d35
-[11:07:07] [Server thread/INFO]: KaladinBridge4 joined the game
-[11:07:07] [Server thread/INFO]: KaladinBridge4[/[0:0:0:0:0:0:0:1]:58710] logged in with entity id 4 at ([world]27.162322788794057, 940.0, -2.296070701158998)
-[11:07:08] [Server thread/INFO]: [DHS] Received DH config for KaladinBridge4 in world
-[11:07:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3020ms or 60 ticks behind
-[11:07:38] [Server thread/WARN]: KaladinBridge4 moved too quickly! -14.706772699119512,30.186086042695024,5.771920099193316
-[11:07:50] [Server thread/WARN]: KaladinBridge4 moved too quickly! 24.04845449175616,-7.630560740989154,36.104809141166875
-[11:07:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2695ms or 53 ticks behind
-[11:07:59] [Server thread/INFO]: KaladinBridge4 lost connection: Disconnected
-[11:07:59] [Server thread/INFO]: KaladinBridge4 left the game
-[11:08:14] [Server thread/INFO]: [DHS] Generation in progress: 74 processed, 0 in queue, 1.22 per second.
-[18:45:47] [User Authenticator #1/INFO]: UUID of player KaladinBridge4 is 09d9d328-1f2a-435c-b255-ba5d30223d35
-[18:45:49] [Server thread/INFO]: KaladinBridge4 joined the game
-[18:45:49] [Server thread/INFO]: KaladinBridge4[/[0:0:0:0:0:0:0:1]:61207] logged in with entity id 155 at ([world]-48.437631781504976, 940.0, 53.47715101624464)
-[18:45:50] [Server thread/INFO]: [DHS] Received DH config for KaladinBridge4 in world
-[18:46:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3549ms or 70 ticks behind
-[18:46:49] [Server thread/WARN]: KaladinBridge4 moved too quickly! 24.622495793417613,-44.279022398486546,28.41029717570649
-[18:46:58] [Server thread/INFO]: [DHS] Generation in progress: 176 processed, 1 in queue, 2.77 per second.
-[18:47:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10094ms or 201 ticks behind
-[18:47:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2538ms or 50 ticks behind
-[18:48:00] [Server thread/INFO]: [DHS] Generation in progress: 289 processed, 0 in queue, 4.62 per second.
-[18:49:00] [Server thread/INFO]: [DHS] Generation in progress: 169 processed, 0 in queue, 2.82 per second.
-[18:49:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3179ms or 63 ticks behind
-[18:49:04] [Server thread/WARN]: KaladinBridge4 moved too quickly! 0.0,74.60019745723332,0.0
-[18:49:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2750ms or 55 ticks behind
-[18:50:02] [Server thread/INFO]: [DHS] Generation in progress: 303 processed, 1 in queue, 4.88 per second.
-[18:50:28] [Server thread/INFO]: KaladinBridge4 issued server command: //place stone
-[18:50:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2594ms or 51 ticks behind
-[18:51:04] [Server thread/INFO]: [DHS] Generation in progress: 321 processed, 0 in queue, 5.23 per second.
-[18:51:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3004ms or 60 ticks behind
-[18:51:52] [Server thread/INFO]: KaladinBridge4 issued server command: //place -663 1138 -656 stone
-[18:52:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2821ms or 56 ticks behind
-[18:52:05] [Server thread/INFO]: [DHS] Generation in progress: 162 processed, 0 in queue, 2.66 per second.
-[18:52:18] [Server thread/INFO]: KaladinBridge4 issued server command: /fill ~ ~ ~ ~ ~ ~ stone
-[18:52:19] [Server thread/INFO]: [KaladinBridge4: Successfully filled 1 block(s)]
-[18:52:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3147ms or 62 ticks behind
-[18:52:38] [Server thread/INFO]: KaladinBridge4 issued server command: //replace sand air
-[18:52:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3185ms or 63 ticks behind
-[18:52:47] [Server thread/INFO]: KaladinBridge4 issued server command: //confirm
-[18:52:48] [AsyncNotifyKeyedQueue - 2/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightStarlightRelighterFactory as relighter factory.
-[18:53:08] [Server thread/INFO]: [DHS] Generation in progress: 179 processed, 1 in queue, 2.82 per second.
-[18:53:12] [Server thread/INFO]: KaladinBridge4 issued server command: //replace stone air
-[18:53:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2686ms or 53 ticks behind
-[18:53:40] [Server thread/INFO]: KaladinBridge4 issued server command: //confirm
-[18:54:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2581ms or 51 ticks behind
-[18:54:11] [Server thread/INFO]: [DHS] Generation in progress: 145 processed, 0 in queue, 2.30 per second.
-[18:54:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2728ms or 54 ticks behind
-[18:55:14] [Server thread/INFO]: [DHS] Generation in progress: 26 processed, 0 in queue, 0.41 per second.
-[18:56:19] [Server thread/INFO]: [DHS] Generation in progress: 319 processed, 0 in queue, 5.31 per second.
-[18:57:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2627ms or 52 ticks behind
-[18:57:20] [Server thread/INFO]: KaladinBridge4 issued server command: //replace stone air
-[18:57:21] [Server thread/INFO]: [DHS] Generation in progress: 344 processed, 0 in queue, 5.49 per second.
-[18:57:24] [Server thread/INFO]: KaladinBridge4 issued server command: //confirm
-[18:58:26] [Server thread/INFO]: [DHS] Generation in progress: 289 processed, 0 in queue, 4.45 per second.
-[18:59:31] [Server thread/INFO]: [DHS] Generation in progress: 265 processed, 1 in queue, 4.08 per second.
-[18:59:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5882ms or 117 ticks behind
-[18:59:49] [Server thread/WARN]: KaladinBridge4 moved too quickly! 11.921011922012951,0.0,-64.12823876248092
-[19:00:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2726ms or 54 ticks behind
-[19:00:35] [Server thread/INFO]: [DHS] Generation in progress: 150 processed, 0 in queue, 2.36 per second.
-[19:01:40] [Server thread/INFO]: [DHS] Generation in progress: 141 processed, 0 in queue, 2.17 per second.
-[19:05:31] [Server thread/INFO]: KaladinBridge4 issued server command: //hcyl stone 760 90
-[19:06:12] [Server thread/INFO]: KaladinBridge4 issued server command: /fill -43 -61 -5 -43 30 -5 stone
-[19:06:13] [Server thread/INFO]: [KaladinBridge4: Successfully filled 92 block(s)]
-[19:06:20] [Server thread/INFO]: [DHS] Generation in progress: 193 processed, 0 in queue, 3.21 per second.
-[19:07:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2990ms or 59 ticks behind
-[19:07:23] [Server thread/INFO]: [DHS] Generation in progress: 182 processed, 0 in queue, 2.88 per second.
-[19:08:28] [Server thread/INFO]: [DHS] Generation in progress: 276 processed, 0 in queue, 4.26 per second.
-[19:08:58] [Server thread/INFO]: KaladinBridge4 issued server command: //replace stone air
-[19:09:10] [Server thread/WARN]: KaladinBridge4 moved too quickly! 11.045379454218107,5.310333106217364,17.405618353711475
-[19:09:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2733ms or 54 ticks behind
-[19:09:31] [Server thread/INFO]: [DHS] Generation in progress: 310 processed, 0 in queue, 4.95 per second.
-[19:10:31] [Server thread/INFO]: [DHS] Generation in progress: 127 processed, 0 in queue, 2.12 per second.
-[19:11:16] [Server thread/INFO]: KaladinBridge4 issued server command: //hcyl stone 760 100
-[19:11:36] [Server thread/INFO]: [DHS] Generation in progress: 107 processed, 0 in queue, 1.65 per second.
-[19:11:54] [Server thread/INFO]: KaladinBridge4 issued server command: //cyl stone 760 1
-[19:12:36] [Server thread/INFO]: [DHS] Generation in progress: 119 processed, 0 in queue, 1.98 per second.
-[19:12:50] [Server thread/INFO]: KaladinBridge4 issued server command: /teleport KaladinBridge4 -42 40 5
-[19:12:50] [Server thread/INFO]: [KaladinBridge4: Teleported KaladinBridge4 to -41.500000, 40.000000, 5.500000]
-[19:13:10] [Server thread/INFO]: KaladinBridge4 lost connection: Disconnected
-[19:13:11] [Server thread/INFO]: KaladinBridge4 left the game
-[19:13:41] [Server thread/INFO]: [DHS] Generation in progress: 53 processed, 0 in queue, 0.88 per second.
-[20:17:58] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[20:17:58] [Server thread/INFO]: Stopping server
-[20:17:58] [Server thread/INFO]: [DHS] Disabling DHSupport v0.9.0
-[20:17:58] [Server thread/INFO]: [DHS] Lights out!
-[20:17:58] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3
-[20:17:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:17:58] [Server thread/INFO]: Saving players
-[20:17:58] [Server thread/INFO]: Saving worlds
-[20:17:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:17:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:17:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:17:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:17:59] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 57 entity chunks, 0 poi chunks in world 'world' in 0.95s
-[20:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:18:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:18:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:18:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:18:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[20:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:18:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:18:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:18:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:18:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[20:18:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:18:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:18:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:18:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:04:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:04:35] [ServerMain/INFO]: Loaded 1290 recipes
+[08:04:35] [ServerMain/INFO]: Loaded 1399 advancements
+[08:04:36] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[08:04:36] [Server thread/INFO]: Loading properties
+[08:04:36] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[08:04:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[08:04:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:04:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:04:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[08:04:40] [Server thread/INFO]: Default game type: CREATIVE
+[08:04:40] [Server thread/INFO]: Generating keypair
+[08:04:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:04:41] [Server thread/INFO]: Using default channel type
+[08:04:41] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[08:04:41] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[08:04:41] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
+[08:04:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@28f186f0]
+[08:04:43] [Server thread/INFO]: [DHS] Loading server plugin DHSupport v0.9.0
+[08:04:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:04:43] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
+[08:04:43] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[08:04:44] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[08:04:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[08:04:44] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[08:04:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[08:04:47] [Server thread/INFO]: Preparing level "world"
+[08:04:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:04:52] [Server thread/INFO]: Time elapsed: 4538 ms
+[08:04:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:04:52] [Server thread/INFO]: Time elapsed: 602 ms
+[08:04:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:04:53] [Server thread/INFO]: Time elapsed: 900 ms
+[08:04:53] [Server thread/INFO]: [DHS] Enabling DHSupport v0.9.0
+[08:04:53] [Server thread/INFO]: [DHS] I am DHS 0.9.0 for MC 1.21.1.
+[08:04:54] [Server thread/INFO]: [DHS] Using Paper scheduler.
+[08:04:54] [Server thread/INFO]: [DHS] Ready!
+[08:04:54] [Server thread/INFO]: [spark] Starting background profiler...
+[08:04:54] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[08:04:54] [Server thread/INFO]: Done preparing level "world" (7.548s)
+[08:04:54] [Server thread/INFO]: Running delayed init tasks
+[08:04:54] [Server thread/INFO]: Done (47.543s)! For help, type "help"
+[08:04:54] [Server thread/INFO]: Timings Reset
+[08:05:03] [Server thread/INFO]: [Not Secure] [Server] Hi
+[18:22:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1613384ms or 32267 ticks behind
+[19:00:11] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[19:00:11] [Server thread/INFO]: Stopping server
+[19:00:11] [Server thread/INFO]: [DHS] Disabling DHSupport v0.9.0
+[19:00:11] [Server thread/INFO]: [DHS] Lights out!
+[19:00:11] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3
+[19:00:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:00:11] [Server thread/INFO]: Saving players
+[19:00:11] [Server thread/INFO]: Saving worlds
+[19:00:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 3 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[19:00:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[19:00:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:00:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[19:00:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:00:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:00:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:00:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
