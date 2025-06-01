@@ -1,0 +1,33 @@
+{
+  "ultrawarm": true,
+  "natural": false,
+  "piglin_safe": true,
+  "respawn_anchor_works": true,
+  "bed_works": false,
+  "has_raids": false,
+  "has_skylight": false,
+  "has_ceiling": true,
+  "coordinate_scale": 8,
+  "ambient_light": 0.1,
+  "fixed_time": 18000,
+  "logical_height": 128,
+  "effects": "minecraft:the_end",
+  "biome": "minecraft:the_end",
+  "infiniburn": "#minecraft:infiniburn_nether",
+  "min_y": 0,
+  "height": 2032,
+  "monster_spawn_light_level": 7,
+  "monster_spawn_block_light_limit": 15,
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [
+        { "block": "minecraft:bedrock", "height": 1 },
+        { "block": "minecraft:obsidian", "height": 200 }
+      ],
+      "biome": "minecraft:nether_wastes",
+      "lakes": false,
+      "features": false
+    }
+  }
+}
